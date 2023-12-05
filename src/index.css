@@ -1,13 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  width: 20rem;
+  height: 20rem;
+
+  margin: 10rem auto;
+}
+
+.view-port {
+  width: 100%;
+  height: 75%;
+  margin-bottom: 1rem;
+  border: 0.15rem solid #000;
+  border-radius: 0.4rem;
+  box-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.31);
+
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchForm {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+input {
+  padding: 0.7rem 0.5rem;
+  border-radius: 0.4rem;
+  box-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.31);
+
+  font-size: 1.5rem;
+}
+.searchForm label {
+  position: absolute;
+  left: -99999px;
 }
