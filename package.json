@@ -1,7 +1,7 @@
 {
   "name": "color_visualizer_react_app",
-  "version": "0.1.0",
-  "homepage": "https:///ID0103.github.io/color_visualizer_react_app",
+  "version": "0.1.1",
+  "homepage": "https:///id0103.github.io/color_visualizer_react_app",
   "private": true,
   "dependencies": {
     "color-convert": "^2.0.1",
@@ -9,6 +9,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@svgr/webpack": "^8.1.0",
     "gh-pages": "^6.1.0",
     "react-scripts": "^5.0.1"
