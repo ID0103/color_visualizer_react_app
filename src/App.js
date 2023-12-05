@@ -64,7 +64,7 @@ function App() {
             required
             type="text"
             id="search"
-            placeholder="Type color name"
+            placeholder="Type color name or hex code"
             onChange={(e) => {
               handleColorInput(e.target.value);
             }}
