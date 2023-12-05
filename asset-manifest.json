@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/color_visualizer_react_app/static/css/main.1e855511.css",
+    "main.js": "/color_visualizer_react_app/static/js/main.9c07de23.js",
+    "index.html": "/color_visualizer_react_app/index.html",
+    "main.1e855511.css.map": "/color_visualizer_react_app/static/css/main.1e855511.css.map",
+    "main.9c07de23.js.map": "/color_visualizer_react_app/static/js/main.9c07de23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e855511.css",
+    "static/js/main.9c07de23.js"
+  ]
+}
